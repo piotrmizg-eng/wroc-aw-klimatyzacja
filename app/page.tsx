@@ -33,11 +33,38 @@ export default function Home() {
           </div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-white/80">
-            <a href="#uslugi" className="hover:text-cyan-300 transition">Usługi</a>
-            <a href="#realizacje" className="hover:text-cyan-300 transition">Realizacje</a>
-            <a href="#proces" className="hover:text-cyan-300 transition">Proces</a>
-            <a href="#kontakt" className="hover:text-cyan-300 transition">Kontakt</a>
-          </nav>
+  <a href="#uslugi" className="hover:text-cyan-300 transition">
+    Usługi
+  </a>
+
+  <a href="#realizacje" className="hover:text-cyan-300 transition">
+    Realizacje
+  </a>
+
+  <a href="#proces" className="hover:text-cyan-300 transition">
+    Proces
+  </a>
+
+  <a
+    href="https://wroclaw-pv.pl"
+    target="_blank"
+    className="hover:text-cyan-300 transition"
+  >
+    Fotowoltaika
+  </a>
+
+  <a
+    href="https://wroclaw-pompyciepla.pl"
+    target="_blank"
+    className="hover:text-cyan-300 transition"
+  >
+    Pompy ciepła
+  </a>
+
+  <a href="#kontakt" className="hover:text-cyan-300 transition">
+    Kontakt
+  </a>
+</nav>
 
           <a
             href="tel:+48730230919"
